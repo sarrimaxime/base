@@ -1,0 +1,17 @@
+// imports
+@import "shared/_variables";
+@import "shared/_mixins";
+@import "shared/_reset";
+@import "shared/_fonts";
+
+// sprite
+@import "desktop/sprite";
+
+// partials
+@import "desktop/partials/header";
+
+// parts
+@import "desktop/parts/home";
+
+// shared styles
+@import "desktop/global";

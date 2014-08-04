@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "description": "Bootstrap app",
+  "author": {
+    "name": "Sarri Maxime",
+    "email": "sarri.maxime@gmail.com",
+    "url": "http://adevby.me"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.7.1",
+    "gulp": "^3.8.0",
+    "gulp-coffee": "~2.1.1",
+    "gulp-clean": "~0.3.0",
+    "gulp-concat": "~2.2.0",
+    "gulp-notify": "^1.4.0",
+    "gulp-uglify": "~0.3.0",
+    "gulp-sass": "~0.7.2",
+    "gulp-watch": "~0.6.6",
+    "gulp-minify-css": "^0.3.6",
+    "path": "^0.4.9",
+    "gulp-load-plugins": "^0.5.3",
+    "gulp-plumber": "^0.6.4",
+    "gulp-livereload": "^2.1.0"
+  }
+}

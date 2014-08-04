@@ -1,0 +1,27 @@
+@mixin importFont($name, $path, $weight: 400) {
+	@font-face {
+		font-family: $name;
+		src: url('#{fonts}/#{$path}.eot');
+		src: url('#{fonts}/#{$path}.eot?#iefix') format('embedded-opentype'),
+			url('#{fonts}/#{$path}.woff') format('woff'),
+			url('#{fonts}/#{$path}.ttf') format('truetype'),
+			url('#{fonts}/#{$path}.svg') format('svg');
+    font-weight: $weight;
+	}
+}
+
+// Usage:
+// @extend %font-regular;
+%font-regular{
+  font-weight: 400;
+}
+
+// Usage:
+// @extend %font-medium;
+%font-medium{
+  font-weight: 500;
+}
+
+@include importFont('Apercu', 'Apercu');
+@include importFont('Apercu', 'Apercu-Medium', 500);
+

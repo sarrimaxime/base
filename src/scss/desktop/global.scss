@@ -1,0 +1,13 @@
+body {
+  @include smoothIt;
+  background-color: $bg-color;
+  font: 400 16px/1 $font-family;
+}
+
+
+// ------------------------------------------------------------o 
+
+.ajaxContainer {
+	position:relative;
+	z-index:2;
+}

@@ -1,0 +1,8 @@
+node_modules
+misc
+psd
+coffee-script
+
+.idea
+.DS_Store
+*.iml

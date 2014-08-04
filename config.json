@@ -1,0 +1,59 @@
+{
+
+	"src": "src/",
+	"dev": "dev/",
+	"dist": "dist/",
+
+	"coffee": [
+		{
+			"src": [
+				"coffee/shared/data/**/*.coffee",
+				"coffee/shared/libs/**/*.coffee",
+				"coffee/shared/**/*.coffee",
+				"coffee/desktop/**/*.coffee"
+			],
+			"dest": "js/desktop",
+			"filename": "script.coffee"
+		},
+
+		{
+			"src": [
+				"coffee/shared/data/**/*.coffee",
+				"coffee/shared/libs/**/*.coffee",
+				"coffee/shared/**/*.coffee",
+				"coffee/mobile/**/*.coffee"
+			],
+			"dest": "js/mobile",
+			"filename": "script-mobile.coffee"
+		}
+	],
+
+	"js": [
+		{
+			"src": [
+				"js/shared/libs/jquery/jquery-2.0.3.min.js",
+				"js/shared/**/*.js",
+				"js/desktop/**/*.js"
+			],
+			"dest": "js",
+			"filename": "script.js"
+		},
+
+		{
+			"src": [
+				"js/shared/libs/jquery/jquery-2.0.3.min.js",
+				"js/shared/**/*.js",
+				"js/mobile/**/*.js"
+			],
+			"dest": "js",
+			"filename": "script-mobile.js"
+		}
+
+	],
+
+	"sass": {
+		"src": ["scss/style.scss", "scss/style.mobile.scss", "scss/style.old.scss"],
+		"dest": "css"
+	}
+
+}
